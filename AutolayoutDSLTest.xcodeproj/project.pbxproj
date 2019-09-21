@@ -63,6 +63,11 @@
 		56711081233578EE00C6B911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5671108323357A9A00C6B911 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		5671108523357B1500C6B911 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		567110882335B9E100C6B911 /* BaseGist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseGist.swift; sourceTree = "<group>"; };
+		567110892335BA1F00C6B911 /* MortarGist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortarGist.swift; sourceTree = "<group>"; };
+		5671108A2335BA2B00C6B911 /* SnapkitGist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapkitGist.swift; sourceTree = "<group>"; };
+		5671108C2335BA3E00C6B911 /* CartographyGist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartographyGist.swift; sourceTree = "<group>"; };
+		5671108D2335BA5200C6B911 /* PurelayoutGist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurelayoutGist.swift; sourceTree = "<group>"; };
 		58FD69A2FB1B3C5ECA5E33D6 /* Pods_AutolayoutDSLTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutolayoutDSLTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		617E1747C32E021FDF19382E /* Pods-AutolayoutDSLTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutolayoutDSLTestTests.debug.xcconfig"; path = "Target Support Files/Pods-AutolayoutDSLTestTests/Pods-AutolayoutDSLTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AB15E978B995069C40774143 /* Pods-AutolayoutDSLTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutolayoutDSLTest.release.xcconfig"; path = "Target Support Files/Pods-AutolayoutDSLTest/Pods-AutolayoutDSLTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -135,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				56711081233578EE00C6B911 /* Assets.xcassets */,
+				567110872335B9BD00C6B911 /* Gist */,
 				567110782335761200C6B911 /* Examples */,
 				5671108323357A9A00C6B911 /* UIColor+Hex.swift */,
 				5671104A23356B2D00C6B911 /* AppDelegate.swift */,
@@ -173,6 +179,18 @@
 				5671107F2335765E00C6B911 /* PureLayoutVC.swift */,
 			);
 			path = Examples;
+			sourceTree = "<group>";
+		};
+		567110872335B9BD00C6B911 /* Gist */ = {
+			isa = PBXGroup;
+			children = (
+				567110882335B9E100C6B911 /* BaseGist.swift */,
+				567110892335BA1F00C6B911 /* MortarGist.swift */,
+				5671108A2335BA2B00C6B911 /* SnapkitGist.swift */,
+				5671108C2335BA3E00C6B911 /* CartographyGist.swift */,
+				5671108D2335BA5200C6B911 /* PurelayoutGist.swift */,
+			);
+			path = Gist;
 			sourceTree = "<group>";
 		};
 		D87C416AEF35113652E5C1C1 /* Pods */ = {
