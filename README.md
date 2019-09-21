@@ -4,7 +4,7 @@ This project has been written using 4 of the most known DSL to Auto-layout in co
 * [SnapKit/SnapKit](https://github.com/SnapKit/SnapKit) (5.0.0)
 * [robb/Cartography](https://github.com/robb/Cartography) (3.0)
 * [PureLayout/PureLayout](https://github.com/PureLayout/PureLayout) (3.1.4)
-* [Mortar/Core_NoCreatable](Mortar/Core_NoCreatable) (1.6)
+* [Mortar/Core_NoCreatable](https://github.com/jmfieldman/Mortar) (1.6)
 
 The project contains 4 different ViewControllers with the same design using the each of the libraries. The UIKit components can be found [here](https://github.com/cjortegon/swift-autolayout-dsl-examples/blob/master/AutolayoutExamples/Gist/BaseGist.swift). And the layouts for each application are this:
 * Example using [SnapKit](https://github.com/cjortegon/swift-autolayout-dsl-examples/blob/master/AutolayoutExamples/Gist/SnapkitGist.swift)
