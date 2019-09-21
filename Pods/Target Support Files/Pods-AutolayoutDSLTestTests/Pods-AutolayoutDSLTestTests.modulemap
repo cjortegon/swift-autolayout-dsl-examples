@@ -1,6 +1,0 @@
-framework module Pods_AutolayoutDSLTestTests {
-  umbrella header "Pods-AutolayoutDSLTestTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
