@@ -6,11 +6,11 @@ This project has been written using 4 of the most known DSL to Auto-layout in co
 * [PureLayout/PureLayout](https://github.com/PureLayout/PureLayout) (3.1.4)
 * [Mortar/Core_NoCreatable](Mortar/Core_NoCreatable) (1.6)
 
-The project contains 4 different ViewControllers with the same design using the each of the libraries. The UIKit components can be found [here](https://github.com/cjortegon/swift-autolayout-dsl-examples/blob/master/AutolayoutDSLTest/Gist/BaseGist.swift). And the layouts for each application are this:
-* Example using [SnapKit](https://github.com/cjortegon/swift-autolayout-dsl-examples/blob/master/AutolayoutDSLTest/Gist/SnapkitGist.swift)
-* Example using [Cartography](https://github.com/cjortegon/swift-autolayout-dsl-examples/blob/master/AutolayoutDSLTest/Gist/CartographyGist.swift)
-* Example using [PureLayout](https://github.com/cjortegon/swift-autolayout-dsl-examples/blob/master/AutolayoutDSLTest/Gist/PurelayoutGist.swift)
-* Example using [Mortar](https://github.com/cjortegon/swift-autolayout-dsl-examples/blob/master/AutolayoutDSLTest/Gist/MortarGist.swift)
+The project contains 4 different ViewControllers with the same design using the each of the libraries. The UIKit components can be found [here](https://github.com/cjortegon/swift-autolayout-dsl-examples/blob/master/AutolayoutExamples/Gist/BaseGist.swift). And the layouts for each application are this:
+* Example using [SnapKit](https://github.com/cjortegon/swift-autolayout-dsl-examples/blob/master/AutolayoutExamples/Gist/SnapkitGist.swift)
+* Example using [Cartography](https://github.com/cjortegon/swift-autolayout-dsl-examples/blob/master/AutolayoutExamples/Gist/CartographyGist.swift)
+* Example using [PureLayout](https://github.com/cjortegon/swift-autolayout-dsl-examples/blob/master/AutolayoutExamples/Gist/PurelayoutGist.swift)
+* Example using [Mortar](https://github.com/cjortegon/swift-autolayout-dsl-examples/blob/master/AutolayoutExamples/Gist/MortarGist.swift)
 
 ## Preview of the built layout
 
