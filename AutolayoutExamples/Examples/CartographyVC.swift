@@ -44,7 +44,11 @@ class CartographyVC: UIViewController {
         view.addSubview(button)
         
         constrain(view, box) { view, box in
-            box.top == view.safeAreaLayoutGuide.top + 10
+            if #available(iOS 11.0, *) {
+                box.top == view.safeAreaLayoutGuide.top + 10
+            } else {
+                box.top == view.layoutMarginsGuide.top + 10
+            }
             box.right == view.right - 10
             box.bottom == view.bottom - 25
             box.left == view.left + 10
