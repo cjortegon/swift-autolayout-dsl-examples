@@ -45,7 +45,7 @@ class PureLayoutVC: UIViewController {
         
         box.autoPin(toTopLayoutGuideOf: self, withInset: 10)
         box.autoPinEdge(ALEdge.right, to: ALEdge.right, of: view, withOffset: -10)
-        box.autoPinEdge(ALEdge.bottom, to: ALEdge.bottom, of: view, withOffset: -10)
+        box.autoPinEdge(ALEdge.bottom, to: ALEdge.bottom, of: view, withOffset: -25)
         box.autoPinEdge(ALEdge.left, to: ALEdge.left, of: view, withOffset: 10)
         
         header.autoMatch(ALDimension.height, to: ALDimension.height, of: box, withMultiplier: 0.25)

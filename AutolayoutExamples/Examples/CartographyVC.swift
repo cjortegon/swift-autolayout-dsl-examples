@@ -46,7 +46,7 @@ class CartographyVC: UIViewController {
         constrain(view, box) { view, box in
             box.top == view.safeAreaLayoutGuide.top + 10
             box.right == view.right - 10
-            box.bottom == view.bottom - 10
+            box.bottom == view.bottom - 25
             box.left == view.left + 10
         }
         
