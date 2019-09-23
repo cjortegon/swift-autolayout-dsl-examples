@@ -70,6 +70,18 @@ class ViewController: UIViewController {
         purelayout.m_left |=| view.m_left + 10
         purelayout.m_right |=| view.m_right - 10
         purelayout.addTarget(self, action: #selector(goToPureLayout(button:)), for: .touchUpInside)
+        
+        /* Grability Layout */
+        let grability = UIButton()
+        view.addSubview(grability)
+        grability.setTitle("Grability Layout", for: .normal)
+        grability.backgroundColor = UIColor.kGreen
+        
+        grability.m_height |=| 50
+        grability.m_top |=| purelayout.m_bottom + 10
+        grability.m_left |=| view.m_left + 10
+        grability.m_right |=| view.m_right - 10
+        grability.addTarget(self, action: #selector(goToGrabilityLayout(button:)), for: .touchUpInside)
     }
 
     @objc func goToMortar(button: UIButton) {
@@ -86,6 +98,10 @@ class ViewController: UIViewController {
 
     @objc func goToPureLayout(button: UIButton) {
         navigationController?.pushViewController(PureLayoutVC(), animated: true)
+    }
+
+    @objc func goToGrabilityLayout(button: UIButton) {
+        navigationController?.pushViewController(GrabilityVC(), animated: true)
     }
 
 }
