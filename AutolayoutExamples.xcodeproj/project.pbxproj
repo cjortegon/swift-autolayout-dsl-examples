@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		562E521E23390D1400B0B590 /* GrabilityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E521D23390D1400B0B590 /* GrabilityVC.swift */; };
-		562E52212339161F00B0B590 /* UIViewController+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E52202339161F00B0B590 /* UIViewController+Layout.swift */; };
+		562E52212339161F00B0B590 /* Snapkit+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E52202339161F00B0B590 /* Snapkit+Layout.swift */; };
 		5671104B23356B2D00C6B911 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5671104A23356B2D00C6B911 /* AppDelegate.swift */; };
 		5671104D23356B2D00C6B911 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5671104C23356B2D00C6B911 /* ViewController.swift */; };
 		5671105523356B2F00C6B911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5671105323356B2F00C6B911 /* LaunchScreen.storyboard */; };
@@ -25,7 +25,7 @@
 /* Begin PBXFileReference section */
 		533A0EB80DC267D43AD719BF /* Pods-AutolayoutExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutolayoutExamples.debug.xcconfig"; path = "Target Support Files/Pods-AutolayoutExamples/Pods-AutolayoutExamples.debug.xcconfig"; sourceTree = "<group>"; };
 		562E521D23390D1400B0B590 /* GrabilityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrabilityVC.swift; sourceTree = "<group>"; };
-		562E52202339161F00B0B590 /* UIViewController+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Layout.swift"; sourceTree = "<group>"; };
+		562E52202339161F00B0B590 /* Snapkit+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Snapkit+Layout.swift"; sourceTree = "<group>"; };
 		5671104723356B2D00C6B911 /* AutolayoutExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutolayoutExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5671104A23356B2D00C6B911 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5671104C23356B2D00C6B911 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		562E521F2339160400B0B590 /* GLayout */ = {
 			isa = PBXGroup;
 			children = (
-				562E52202339161F00B0B590 /* UIViewController+Layout.swift */,
+				562E52202339161F00B0B590 /* Snapkit+Layout.swift */,
 			);
 			path = GLayout;
 			sourceTree = "<group>";
@@ -261,7 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				562E52212339161F00B0B590 /* UIViewController+Layout.swift in Sources */,
+				562E52212339161F00B0B590 /* Snapkit+Layout.swift in Sources */,
 				5671108423357A9A00C6B911 /* UIColor+Hex.swift in Sources */,
 				5671104D23356B2D00C6B911 /* ViewController.swift in Sources */,
 				5671107C2335763400C6B911 /* SnapkitVC.swift in Sources */,
