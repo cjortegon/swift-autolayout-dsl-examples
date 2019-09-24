@@ -44,21 +44,21 @@ class GrabilityVC: UIViewController {
         view.addSubview(button)
         
         box.snp.makeConstraints {
-            $0.top      |=| (topLayoutGuide.s_bottom + 10)
-            $0.bottom   |=| (view.s_bottom - 25)
-            $0.left     |=| (view.s_left + 10)
-            $0.right    |=| (view.s_right - 10)
+            $0.top      |=| topLayoutGuide.s_bottom + 10
+            $0.bottom   |=| view.s_bottom - 25
+            $0.left     |=| view.s_left + 10
+            $0.right    |=| view.s_right - 10
         }
         
         header.snp.makeConstraints {
-            $0.height   |=| (box.s_height * 0.25)
+            $0.height   |=| box.s_height * 0.25
             $0.top      |=| box.s_top
             $0.right    |=| box.s_right
             $0.left     |=| box.s_left
         }
         
         logo.snp.makeConstraints {
-            $0.height   |=| (header.s_height * 0.5)
+            $0.height   |=| header.s_height * 0.5
             $0.center   |=| header.s_center
         }
         
