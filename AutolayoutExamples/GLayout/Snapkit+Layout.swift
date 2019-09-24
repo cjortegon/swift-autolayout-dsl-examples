@@ -10,7 +10,12 @@ import UIKit
 import SnapKit
 import Darwin
 
-infix operator |=|
+precedencegroup AnchorPrecedence {
+    associativity: right
+    lowerThan: AdditionPrecedence, MultiplicationPrecedence
+}
+
+infix operator |=| : AnchorPrecedence
 infix operator +
 infix operator -
 infix operator *
